@@ -25,6 +25,9 @@ button{
     cursor: pointer;
 
 }
+.main-header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .menu-item:focus{
     color: #404bbf
 }
@@ -44,6 +47,7 @@ button{
         letter-spacing: 0.54px;
         text-transform: uppercase;
         line-height: 1.17;
+        margin-right: 76px
 }
 .logo-second-name{
     color: #2E2F42;
@@ -133,6 +137,13 @@ button{
         color: #434455;
         text-align: center;
 }
+.link-text {
+    width: calc((100% - 72px) / 4);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
 .third-header{
     color: #2E2F42;
         text-align: center;
@@ -190,6 +201,8 @@ h3{
         letter-spacing: 0.54px;
         text-transform: uppercase;
         line-height: 1.17;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .footer-p{
     color: #F4F4FD;
@@ -278,13 +291,7 @@ button:focus{
         align-self: center;
         gap: 24px;
 }
-.link-text{
-    width: calc((100% - 72px) / 4);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
 
-}
 .second-section{
     padding: 120px 0;
 }
@@ -331,4 +338,8 @@ button:focus{
 }
 .link-class {
     width: calc((100% - 48px) / 3);
+}
+.fourth-section{
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
