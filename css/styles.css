@@ -85,6 +85,8 @@ button{
     background-color: #FFFFFF;
     display: flex;
         gap: 24px;
+        margin: 0;
+        padding-left: 0;
 }
 h1{
 font-family: "Roboto", sans-serif;
@@ -178,7 +180,7 @@ p{
         margin-bottom: 72px;
 }
 h3{
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
     
         /* Header 3 */
         font-family: Roboto;
@@ -310,6 +312,8 @@ button:focus{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    margin: 0;
+        padding-left: 0;
 }
 
 .third-header-portfolio{
