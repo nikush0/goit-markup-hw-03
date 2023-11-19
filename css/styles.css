@@ -292,6 +292,9 @@ button:focus{
         justify-content: center;
         align-self: center;
         gap: 24px;
+        margin: 0;
+        padding-left: 0;
+        
 }
 
 .second-section{
