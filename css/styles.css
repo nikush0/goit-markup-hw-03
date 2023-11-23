@@ -370,3 +370,6 @@ button:focus{
         letter-spacing: 0.32px;
         text-align: center;
 }
+.main-header{
+    border-bottom: 1px solid #e7e9fc;
+}
